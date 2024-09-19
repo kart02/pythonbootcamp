@@ -1,0 +1,12 @@
+num=[1,2,3,4]
+print("before= ",num)
+num.append(5)
+print("After= ",num)
+num.insert(0,0)
+print("After= ",num)
+num.remove(0)
+print("After= ",num)
+# num.clear()
+# print(num)
+num.pop(2)
+print(num)
